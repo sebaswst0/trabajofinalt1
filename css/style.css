@@ -12,7 +12,7 @@
 body {
   background: #fff;
   color: #444;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Encode Sans', 'IBM Plex Mono', sans-serif;
 }
 
 a {
@@ -39,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Encode Sans', 'IBM Plex Mono', sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -50,7 +50,7 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #007bff;
+  background: #34C0DF;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -125,7 +125,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #header {
-  height: 80px;
+  height: 85px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -136,7 +136,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 60px;
+  height: 70px;
   padding: 10px 0;
 }
 
@@ -158,8 +158,8 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 26px;
+  margin: -7px 0px;
+  max-height: 60px;
 }
 
 .main-pages {
@@ -173,7 +173,7 @@ h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background: url("../img/fondo1.svg") center bottom no-repeat;
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -196,13 +196,13 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #74b5fc;
+  color: #34C0DF;
   text-decoration: underline;
 }
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Encode Sans', 'IBM Plex Mono', sans-serif;
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 1px;
@@ -215,8 +215,8 @@ h6 {
 }
 
 #intro .intro-info .btn-get-started {
-  background: #007bff;
-  border: 2px solid #007bff;
+  background: #34C0DF;
+  border: 2px solid #34C0DF;
   color: #fff;
 }
 
@@ -231,8 +231,8 @@ h6 {
 }
 
 #intro .intro-info .btn-services:hover {
-  background: #007bff;
-  border-color: #007bff;
+  background: #34C0DF;
+  border-color: #34C0DF;
   color: #fff;
 }
 
@@ -263,18 +263,18 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #004289;
+  color: #9E69C5;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-size: 16px;
+  font-family: 'Encode Sans', 'IBM Plex Mono', sans-serif;
+  font-weight: 600;
 }
 
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #007bff;
+  color: #34C0DF;
   text-decoration: none;
 }
 
@@ -475,7 +475,7 @@ h6 {
 --------------------------------*/
 
 .section-bg {
-  background: #ecf5ff;
+  background: #E9E7E8;
 }
 
 /* About Us Section
@@ -538,17 +538,17 @@ h6 {
   flex-direction: column;
   text-align: center;
   border-radius: 50%;
-  border: 2px solid #007bff;
+  border: 2px solid #34C0DF;
   transition: all 0.3s ease-in-out;
 }
 
 #about .about-container .icon-box .icon i {
-  color: #007bff;
+  color: #34C0DF;
   font-size: 24px;
 }
 
 #about .about-container .icon-box:hover .icon {
-  background: #007bff;
+  background: #34C0DF;
 }
 
 #about .about-container .icon-box:hover .icon i {
@@ -699,7 +699,7 @@ h6 {
 }
 
 #why-us .counters span {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Encode Sans', 'IBM Plex Mono', sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
@@ -709,7 +709,7 @@ h6 {
 #why-us .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Encode Sans', 'IBM Plex Mono', sans-serif;
   font-size: 14px;
   color: #cce5ff;
 }
@@ -746,7 +746,7 @@ h6 {
 
 #portfolio #portfolio-flters li:hover,
 #portfolio #portfolio-flters li.filter-active {
-  background: #007bff;
+  background: #34C0DF;
   color: #fff;
 }
 
@@ -832,7 +832,7 @@ h6 {
   text-align: center;
   width: 36px;
   height: 36px;
-  background: #007bff;
+  background: #34C0DF;
   border-radius: 50%;
   margin: 10px 4px 0 4px;
 }
@@ -917,7 +917,7 @@ h6 {
 }
 
 #testimonials .owl-dot.active {
-  background-color: #007bff;
+  background-color: #34C0DF;
 }
 
 /* Team Section
@@ -1069,7 +1069,7 @@ h6 {
   margin: 0 0 10px 0;
   padding: 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Encode Sans', 'IBM Plex Mono', sans-serif;
   font-weight: 300;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -1079,7 +1079,7 @@ h6 {
 #contact .contact-about p {
   font-size: 14px;
   line-height: 24px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Encode Sans', 'IBM Plex Mono', sans-serif;
   color: #888;
 }
 
@@ -1114,7 +1114,7 @@ h6 {
 
 #contact .info i {
   font-size: 32px;
-  color: #007bff;
+  color: #34C0DF;
   float: left;
   line-height: 1;
 }
@@ -1167,7 +1167,7 @@ h6 {
 }
 
 #contact .form button[type="submit"] {
-  background: #007bff;
+  background: #34C0DF;
   border: 0;
   border-radius: 20px;
   padding: 8px 30px;
@@ -1185,14 +1185,16 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: #1E1E1E;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  /* background-image: url(../img/footer1.jpg);
+  background-size: contain; */
+  background-color: #1E1E1E;
   padding: 60px 0 30px 0;
 }
 
@@ -1205,7 +1207,7 @@ h6 {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Encode Sans', 'IBM Plex Mono', sans-serif;
   color: #fff;
   font-weight: 400;
   letter-spacing: 3px;
@@ -1216,14 +1218,14 @@ h6 {
   font-size: 13px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
-  color: #ecf5ff;
+  font-family: 'Encode Sans', 'IBM Plex Mono', sans-serif;
+  color: #ffffff;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #007bff;
+  background: #34C0DF;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1268,11 +1270,11 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ecf5ff;
+  color: #f0f0f0;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #74b5fc;
+  color: #34C0DF;
 }
 
 #footer .footer-top .footer-contact {
@@ -1294,7 +1296,7 @@ h6 {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #007bff;
+  background: #34C0DF;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -1320,11 +1322,11 @@ h6 {
 }
 
 #footer .credits a {
-  color: #bfddfe;
+  color: #ffffff;
 }
 
 #footer .credits a:hover {
-  color: #f1f7ff;
+  color: #34C0DF;
 }
 
 /*--------------------------------------------------------------
